@@ -12,5 +12,8 @@ class UserModel{
         const [rows] = await db.execute(sql);
         return rows;
     }
+    static async updateUserModel(){
+        
+    }
 }
 export default UserModel;
