@@ -9,7 +9,7 @@ class UserModel{
     }
     static async getAllusers(){
         const sql = 'SELECT * FROM ${table}'
-        const [rows] = db.execute(sql);
+        const [rows] = await db.execute(sql);
         return rows;
     }
 }

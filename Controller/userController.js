@@ -1,4 +1,4 @@
-import UserModel from "../Model/user Model";    
+import UserModel from "../Model/userModel";    
 export const createUserController=async (req,res)=>{
     try{
         const {name, email, password } = req.body
